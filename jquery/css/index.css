@@ -1,0 +1,66 @@
+
+.container-fluid  {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+#environment {
+  height: 70vh;
+}
+
+#hero {
+height: 40vh;
+background-color:rgba(32,32,32,0.9);
+}
+
+.hero-container > img {
+border-radius: 50%;
+    width:7vh;
+    margin-top: 10px;
+}
+
+.hero-container p, img .monster-container p,img{
+  text-align: center;
+  height: 100%;
+  width:5vh;
+  color:transparent;
+  margin-bottom: 0;
+
+}
+
+.monster-container p{
+  color:white;
+}
+.hero-container p{
+  color:white;
+}
+
+.monster-container >img ,#icon{
+
+  border:1px solid;
+  width:250px;
+}
+
+.monster-container > #m2{
+
+  border:1px solid ;
+  width:700px;
+}
+.monster-container > #m3{
+
+  border:1px solid ;
+  width:70px;
+}
+.monster-container > #m4{
+
+  border:1px solid ;
+  width:700px;
+  margin-bottom: 60px;
+}
+#fight {
+margin-left: 750px;
+border-radius: 5px;
+}
+img.select{
+  border: 3px solid red;
+}
